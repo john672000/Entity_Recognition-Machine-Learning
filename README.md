@@ -1,16 +1,16 @@
-# uilearn
-
-A new Flutter project.
+# Emergency Entity_Extraction
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Project works soely on the idea of how machine learning models can extract defined entities with no waste of time.
 
-A few resources to get you started if this is your first Flutter project:
+The project is about a Front_End Framework written in Flutter and used a Pre-Trained BERT model and extensively trained on random data that mimics 911 call transcripts that I have generated using Python Random and BIO-Tagged them based on what the machine have to learn and identify and in this use case I wanted it to identify 6 main things in a conversation
+1. Names
+2. Location
+3. Emenrgency Type
+4. Phone Numbers
+5. Description of the Offender (if described)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+using this trained model with impressive f1 scores I have used a whisper model to transcribe the audio that mimics a 911 call and have tested it on various cases and have reached a 0.92f1 on extraction could make it better but find the datasets for this use case are a pain in the SaaS. Hopefully this could be a begging on how to train Transformer models for personal use cases #######
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
