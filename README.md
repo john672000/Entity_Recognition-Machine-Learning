@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-This Project works soely on the idea of how machine learning models can extract defined entities with no waste of time.
+This Project works soely on the idea of how machine learning models can extract defined entities with no waste of time. If properly implemented can tone down a lot of time in creating a descriptive data on the offenders.
 
 The project is about a Front_End Framework written in Flutter and used a Pre-Trained BERT model and extensively trained on random data that mimics 911 call transcripts that I have generated using Python Random and BIO-Tagged them based on what the machine have to learn and identify and in this use case I wanted it to identify 6 main things in a conversation
 1. Names
